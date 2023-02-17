@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style> 
+    body{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    *{
+        padding: 0%;
+        margin: 0px;
+    }
+   
+    .nav1
+    {
+        background-color: darkred;
+        height: 60px;
+        width: 100%;
+       
+    }
+     .li1,.li4
+    {
+        display: inline; 
+        float: right;
+        padding-right: 115px;
+        padding-top: 6px;
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-right: 30px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        
+    }
+     li a:hover
+    {
+        color: grey;
+    }
+    .logo
+    {
+        border-radius: 50%;
+        margin-left: 25px;
+      
+    }
+    
+   
+    input[type=radio]
+    {
+        accent-color: darkred;
+    }
+    .mail{
+        margin-left: 5%;
+        margin-top: 10px;
+        height: 500px;
+        width: 40%;
+       
+    }
+    .ver{
+        border: 5px solid darkred;
+        height: 500px;
+       width: 0px;
+       margin-top: 0px;
+       
+    }
+    .main{
+    
+        margin-left: 50px;
+        width: 30%;
+        height: 500px;
+       
+       
+    }
+    .text,.add{
+        background-color: darkred;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .btn{
+        height: 35px;
+        width: 200px;
+        margin-left: 50px;
+        background-color: darkred;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .last{
+        border: 5px solid darkred;
+        width: 99%;
+        height: 0px;
+    }
+    </style>
+</head>
+<body>
+    <nav class="nav1">
+        <img src="image/logo3.png" class="logo" height="60px" width="120px">
+        <ul class="li1">  
+            <li class="li4"><a href="contact.html">Contact Us</a></li>
+            <li class="li4"><a href="address.html">Address</a></li>
+            <li class="li4"><a href="index.html" >Home</a> </li>
+        </ul>
+    
+    </nav>
+
+    <div style="display: flex; height: 500px; width: 100%; margin: 0px;">
+    <div class="mail" >
+        <p class="p1"><a href="tel:9368291341"><img src="image/call1.png" alt="" style="border-radius: 20px;"></a></p>
+        <p class="p2"><a href="mailto:harshitaggrawal804@gmail.com"><img src="image/mail.png" alt="#"></a></p>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/9368291341"> <img alt="Chat on WhatsApp" src="image/whatsapp.png" /></a>
+    </div>
+
+    <div class="ver"></div>
+
+    <div class="main">
+        <h1 style="text-align:center ; margin-top: 20px;margin-right: 0px; color: white ; height: 50px;width: 600px; background-color: darkred;">Fill Form for any Query!!!</h1> <br>
+       
+        <form action="" class="form">
+            Name:
+            <input type="text" placeholder="Enter your name" class="text"> <br><br>
+           
+            Gender: 
+         <input type="radio" name="gender">    Male &nbsp;&nbsp;
+            <input type="radio" name="gender"> Female&nbsp;&nbsp;
+           <br><br>
+            Phone: 
+            <input type="tel" value="+91-" placeholder="Phone no" class="text" > <br><br>
+            Current Address: 
+            <input type="text" placeholder="Current Address" class="add"> <br><br>
+            Email: 
+            <input type="email" placeholder="xyz@gmail.com" class="text"> 
+            <br><br>
+            <input type="button" value="SUBMIT!" class="btn">
+        </form>
+        </div>
+        
+    </div>
+    <div class="last"></div>
+</body>
+</html>
